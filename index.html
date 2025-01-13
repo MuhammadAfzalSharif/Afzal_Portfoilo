@@ -1,575 +1,821 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Afzal's Portfolio</title>
-    
 
     <!-- custom css  -->
-     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
-     <!-- bootstrape -->
+    <!-- bootstrape -->
 
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-     <!-- boxicon  -->
+    <!-- boxicon  -->
 
-     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-
-
-
-</head>
-<body>
-
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <section class="contianer outer-most">
-        <div class="row gap-5 column-media">
- 
-            <!-- aside  -->
+      <div class="row gap-5 column-media">
+        <!--^ aside  -->
 
-            <aside class="col-3 aside ">
+        <aside class="col-3 aside">
+          <!-- profile pic + profession  -->
 
-                <!-- profile pic + profession  -->
+          <section class="aside-sec1">
+            <div class="btn1">
+              <span class="more-info">More Info</span>
+              <i class="bx bxs-chevrons-down down-arrow"></i>
+            </div>
+            <div class="profile-pic">
+              <img src="css/img/me.png" alt="" />
+            </div>
+            <div>
+              <h5>Muhammad Afzal</h5>
+              <p>Web Developer</p>
+            </div>
+          </section>
+          <hr />
 
-                <section class="aside-sec1">
-                    <div class="btn1">
-                        <span class="more-info">More Info</span>
-                        <i class='bx bxs-chevrons-down down-arrow'></i>
-                    </div>
-                    <div class="profile-pic">
-                        <img src="css/img/me.png" alt="">
-                    </div>
-                   <div>
-                    <h5>Muhammad Afzal</h5>
-                    <p>Web Developer</p>
-                   </div>
-                </section>
-                <hr>
+          <div class="click-dropdown-hide">
+            <!-- info -->
 
-                <div class="click-dropdown-hide">
-                    
-                <!-- info -->
-
-                <section class="aside-sec2">
-                    <div class="icon-sec">
-                        <i class='bx bx-envelope'></i>
-                        <div class="icon-sec-content">
-                            <span>Email</span><br>
-                            <a href="mailto:muhammadafzalsharif.2004@gmail.com" class="email">muhammadafzalsharif<br>.2004@gmail.com</a>
-                            
-                        </div>
-                    </div>
-
-                    <div class="icon-sec ">
-                        <i class='bx bx-phone' ></i>
-                        <div class="icon-sec-content">
-                            <span>Phone</span>
-                            <a href="tel:+923024228989">+923024228989</a>
-                        </div>
-                    </div>
-
-                    <div class="icon-sec">
-                        <i class='bx bx-calendar'></i>
-                        <div class="icon-sec-content">
-                            <span>Birthday</span>
-                            <p>Febraruy 22,2204</p>
-                        </div>
-                    </div>
-
-
-                    <div class="icon-sec">
-                        <i class='bx bx-current-location' ></i>
-                        <div class="icon-sec-content">
-                            <span>location</span>
-                            <p class="location">Sector 7/C North <br>Karachi, Pakistan</p>
-                        </div>
-                    </div>
-
-                    
-                </section>
-
-                <!-- links -->
-
-                <section class="aside-sec3 d-flex align-item-center justify-content-center gap-4 p-3">
-                   <a href="https://www.linkedin.com/in/muhammad-afzal-sharif-640098315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class='bx bxl-linkedin-square' ></i></a>
-                   <a href="https://github.com/MuhammadAfzalSharif" target="_blank"><i class='bx bxl-github' ></i></a>
-                   <a href="https://www.instagram.com/muhammad_afzal_2004?igsh=YzljYTk1ODg3Zg==" target="_blank"><i class='bx bxl-instagram' ></i></a>
-                   <a href="https://www.facebook.com/profile.php?id=61550566251529" target="_blank"><i class='bx bxl-facebook-circle' ></i></a>
-   
-                </section>
-
+            <section class="aside-sec2">
+              <div class="icon-sec">
+                <i class="bx bx-envelope"></i>
+                <div class="icon-sec-content">
+                  <span>Email</span><br />
+                  <a
+                    href="mailto:muhammadafzalsharif.2004@gmail.com"
+                    class="email"
+                    >muhammadafzalsharif<br />.2004@gmail.com</a
+                  >
                 </div>
-            </aside>
+              </div>
 
-
-            <!--  beside section  -->
-            <section class=" col-7 outer-section ">
-                <section class="header">
-                    <ul>
-                        <li id="about" class="text clickcolor">About</li>
-                        <li id="resume" class="text">Resume</li>
-                        <li id="portfolio" class="text">Portfolio</li>
-                        <li id="blog" class="text">Blog</li>
-                        <li id="contact" class="text">Contact</li>
-
-                    </ul>
-                </section>
-
-                <!-- about me  -->
-                <section class="describing-section active part1 style-part1">
-                    <h1>About Me</h1>
-                 <div class="short-line"></div> 
-                 <p>
-                    I'm Muhammad Afzal Sharif, a passionate web developer specializing in creating responsive and eye-catching websites. With skills in Canva and MS Office. <br>  <br>I'm fluent in multiple programming languages, which helps me bring ideas to life efficiently and effectively. I'm all about combining creativity with technical expertise to ensure each project I work on is not only functional but also visually appealing. Let's build something awesome together.
-                 </p>  
-
-                
-
-                 <h2>What I'm Doing</h2>
-
-                 <div class="cards">
-                    
-                        <div class="card1">
-                            <i class='bx bx-code-alt' ></i>
-                                <div class="card-content">
-                                    <h4>Web Developer</h4>
-                                    <p>As a front-end developer, I craft intuitive user interfaces that blend functionality with aesthetic appeal.</p>
-                            
-                                </div>
-                        </div>
-                        <div class="card1">
-                            <i class='bx bxs-edit'></i>
-                            <div class="card-content">
-                                <h4>Canva Design</h4>
-                                <p>I leverage Canva's versatile tools to create compelling visual content that resonates with diverse audiences. </p>
-                        
-                            </div>
-                    </div>
-                    <div class="card1">
-                        <i class='bx bxl-microsoft' ></i>
-                        <div class="card-content">
-                            <h4>MS.Office</h4>
-                            <p>Proficient in MS Office, I adeptly utilize its suite of applications to  enhance organizational efficiency.</p>
-                    
-                        </div>
+              <div class="icon-sec">
+                <i class="bx bx-phone"></i>
+                <div class="icon-sec-content">
+                  <span>Phone</span>
+                  <a href="tel:+923024228989">+923024228989</a>
                 </div>
-                 </div>
-                    
-                    
-                </section>
-
-                <!-- Resume  -->
-                <section class="describing-section part2 style-part2">
-                    <!-- title  -->
-                    <h1>Resume</h1>
-                    <div class="short-line"></div>
-  <!-- education  -->
-                    <div class="education">
-                        <div class="experience1">
-                            <i class='bx bx-book-bookmark icons'></i>
-                            <h3 >Education</h3> 
-                        </div>
-
-                        <div class="line"></div>
-                        
-                        <div class="experience2">
-                            <i class='bx bxs-circle'></i>
-                            <p >
-                                <strong>NUCES FAST , Karachi Campus</strong><br>2022-2026 ( I am in 5th semester now ) 
-
-                            </p> 
-                        </div>
-
-
-                        <div class="experience2">
-                            <i class='bx bxs-circle'></i>
-                            <p >
-                                <strong>TCF College (Intermediate), Karachi</strong><br>2020-2022
-
-                            </p> 
-                        </div>
-
-                        <div class="experience2">
-                            <i class='bx bxs-circle'></i>
-                            <p >
-                                <strong>TCF School (Matriculation) ,Karachi</strong><br>2018-2020 
-
-                            </p> 
-                        </div>
-
-                        
-                   </div>
-
- <!-- experience  -->
-                    <div class="education">
-                        <div class="experience1">
-                            <i class='bx bx-book-bookmark icons'></i>
-                            <h3 >Experience</h3> 
-                        </div>
-                        
-                        <div class="experience2">
-                            <i class='bx bxs-circle'></i>
-                            <h6 id="experience-fresh">Fresh</h6> 
-                        </div>
-
-                   </div>
-
-
-
-                    <h2>What I'm Doing</h2>
-
-<!-- progress bar  -->
-                    <div class="progress-container">
-
-                        <span class="skill">HTML / CSS</span>
-                        <span class="percent">80%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 80% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-                        
-
-                        <span class="skill">SASS</span>
-                        <span class="percent">70%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width:70%;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div><br>
-
-
-                          <span class="skill">BOOTSTRAPE</span>
-                        <span class="percent">75%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 75% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-
-
-
-                            <span class="skill">JAVASCRIPT</span>
-                        <span class="percent">80%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 80% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-
-
-
-                            <span class="skill">ES6</span>
-                        <span class="percent">80%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 80% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-
-
-
-                        <span class="skill">GSAP</span>
-                        <span class="percent">70%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 70% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-
-
-
-                        <span class="skill">C / C++</span>
-                        <span class="percent">80%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 80% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                        <BR>   
-
-
-
-                        <span class="skill">ASSEMBELY LANGUAGE</span>
-                        <span class="percent">75%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 75% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-                            
-
-
-                        <span class="skill">OOP</span>
-                        <span class="percent">75%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px; margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 75% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR> 
-
-
-                            <span class="skill">DATA STRUCTURE</span>
-                            <span class="percent">70%</span>
-    
-                            <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                                <div class="progress-bar" role="progressbar" style="width: 70% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                              </div>
-                              <BR> 
-
-
-
-                            <span class="skill">PROBLEM SOLVING</span>
-                        <span class="percent">90%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 90% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-
-
-
-
-
-                            <span class="skill">ACTIVE TEAM MEMBER</span>
-                        <span class="percent">90%</span>
-
-                        <div class="progress " style=" height:10px; border-radius: 10px;  margin:5px 20px;">
-                            <div class="progress-bar" role="progressbar" style="width: 90% ;border-radius: 10px;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-                          </div>
-                          <BR>
-
-                    </div>
-
-<!-- reusme link -->
-                    <h3 class="resume-link-text">Resume Link</h3>
-                    <div class="resume-link-container">
-                        <i class='bx bx-book-open' ></i>    
-                        <p><a href="https://app.flowcv.com/resume-feedback/fobio1wtf6" target="_blank">Click Me  </a></p>
-                    </div>
-                </section>
-
-
-                <!-- portfolio -->
-                <section class="describing-section part3  style-part3">
-                    <h1>Portfolio</h1>
-                    <div class="short-line"></div>
-
-                    
-                        <ul>
-                            <li class="nav-ele clickcolor all-web">All</li>
-                            <li class="nav-ele responsive-web">Responsive Website</li>
-                            
-                        </ul>
-
-                     <div class="website">
-
-<!-- all and responsive website link and pic -->
-                        
-                            <div class="all ">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/staybnb/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/staybnb/" target="_blank"><img src="css/img/w2.png" alt=""></a>
-                                <p class="web-name "> Staybnb (Travel Website)</p>                            
-                            </div>
-                        
-
-
-
-                        
-                            <div class="all responsive">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/scarpentera/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/scarpentera/" target="_blank"><img src="css/img/w1r.png" alt=""></a>
-                                <p class="web-name "> Scarpentra (Wood Worker Website)</p>                            
-                            </div>
-                        
-
-
-
-                        
-                            <div class="all responsive">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/codilooper/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/codilooper/" target="_blank"><img src="css/img/w2r.png" alt=""></a>
-                                 
-                                <p class="web-name ">Codi Looper (Portfolio Website)</p>                            
-                            </div>
-                        
-
-
-
-
-                        
-                            <div class="all ">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/ytube/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/ytube/" target="_blank"><img src="css/img/w3.png" alt=""></a>
-                                 
-                                <p class="web-name ">Youtube (Social Website)</p>                            
-                            </div>
-                        
-
-
-
-
-
-                        
-                            <div class="all ">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/shopkaro/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/shopkaro/" target="_blank"><img src="css/img/w1.png" alt=""></a>
-                                 
-                                <p class="web-name ">Shop Karo (Ecommerce Website)</p>                            
-                            </div>
-                        
-
-                        
-                            <div class="all responsive">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/salty/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/salty/" target="_blank"><img src="css/img/w3r.png" alt=""></a>
-                                <p class="web-name ">Salty (Travel Website)</p>                            
-                            </div>
-
-
-                            <div class="all responsive">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/xypo/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/xypo/" target="_blank"><img src="css/img/w5r.png" alt=""></a>
-                                 
-                                <p class="web-name ">Xypo (Education Website)</p>                            
-                            </div>
-
-
-
-                        
-
-                            <div class="all responsive">
-                                
-                                <a href="https://muhammadafzalsharif.github.io/socialbook/" target="_blank" >
-                                    <i class='bx bxs-paper-plane icons paper-plane'></i>
-                                </a>
-                                <a href="https://muhammadafzalsharif.github.io/socialbook/" target="_blank"><img src="css/img/w4r.png" alt=""></a>
-                                 
-                                <p class="web-name ">Facebook (Social Website)</p>                            
-                            </div>
-<!-- add more wesites-->
-
-
-                     </div>   
-                    
-                </section>
-
-                <!-- certification / blog  -->
-                <section class="describing-section part4 style-part4">
-                    <h1>Certifications</h1>
-                    <div class="short-line"></div>
-
-                    <div class="certificate_section">
-
-                        <div class="certificates">
-                            
-                            <a href="https://www.coursera.org/verify/MFCZ83R27NQ7" target="_blank">                         
-                                   <i class='bx bxs-paper-plane icons paper-plane'></i>
-                            </a> 
-
-                            <a href="https://www.coursera.org/verify/MFCZ83R27NQ7" target="_blank">
-                                <img src="css/img/frontend.png" alt="">
-                            </a> 
-                            <p class="certificate-name-date">Front-End Web Developer • Aug,2023 </p>
-                            <h3>HTML,CSS,JS Web Developer</h3>
-                            <p class="certificate-description">I am absolutely thrilled to have completed my Frontend Developer certification! It's a culmination of hard work and learning, and I'm excited to apply my skills in real-world projects.</p>    
-                                                        
-                        </div>
-
-
-                        <div class="certificates">
-                            
-                            <a href="https://verify.mygreatlearning.com/verify/XCQYLIJT" target="_blank" >
-                                <i class='bx bxs-paper-plane icons paper-plane'></i>
-                         </a>
-                            <a href="https://verify.mygreatlearning.com/verify/XCQYLIJT" target="_blank"><img src="css/img/c++.png" alt=""></a> 
-                            <p class="certificate-name-date">Programming Language • Aug,2023 </p>
-                            <h3>C++ Course Completion</h3>
-                            <p class="certificate-description">
-                                I am ecstatic to have earned my certification in C++ programming! It's a testament to my dedication and passion for mastering this versatile language.
-                            </p>    
-                                                        
-                        </div>
-
-
-                        <div class="certificates">
-                            
-                            <a href="https://verify.mygreatlearning.com/verify/DKQJBPFY" target="_blank">                         
-                                <i class='bx bxs-paper-plane icons paper-plane'></i>
-                            </a>
-                            <a href="https://verify.mygreatlearning.com/verify/DKQJBPFY" target="_blank"><img src="css/img/oop.png" alt=""></a> 
-                            <p class="certificate-name-date">OOP • Aug,2023 </p>
-                            <h3>Certification Of Completion OOP Concept Using C++</h3>
-                            <p class="certificate-description">I'm thrilled to have earned my certification in Object-Oriented Programming using C++! It's a major achievement that validates my skills in designing and implementing efficient, scalable solutions.</p>    
-                                                        
-                        </div>
-<!-- put more certificates  -->
-
-                        <!-- <div class="certificates">
-                            
-                            <i class='bx bxs-paper-plane icons paper-plane'></i>
-                            <a href=""><img src="/img/w1.jpeg" alt=""></a> 
-                            <p class="certificate-name-date">hell • word </p>
-                            <h3>c++ course completion</h3>
-                            <p class="certificate-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, culpa?</p>    
-                                                        
-                        </div> -->
-                    </div>
-
-
-                </section>
-
-                <!-- contact  -->
-                <section class="describing-section part5 style-part5">
-                    <h1>Contact</h1>
-                    <div class="short-line"></div>
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26367.054319772942!2d67.04541546350319!3d24.977951899119947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e59b6b225b%3A0x1951829acb486c7e!2sNorth%20Karachi%20Twp%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1720818273603!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                    <h4>Contact Information</h4>
-
-                    <div class="contact-icon">
-                        <i class='bx bxl-whatsapp'></i><a href="mailto:muhammmadafzalsharif.2004@gmail.com">muhammmadafzalsharif.2004@gmail.com</a> 
-                    </div>
-                    
-                    <div class="contact-icon"><i class='bx bx-envelope' ></i><a href="tel:+923024228989">+923024228989</a><br></div>
-                </section>
-
+              </div>
+
+              <div class="icon-sec">
+                <i class="bx bx-calendar"></i>
+                <div class="icon-sec-content">
+                  <span>Birthday</span>
+                  <p>Febraruy 22,2204</p>
+                </div>
+              </div>
+
+              <div class="icon-sec">
+                <i class="bx bx-current-location"></i>
+                <div class="icon-sec-content">
+                  <span>location</span>
+                  <p class="location">
+                    Sector 7/C North <br />Karachi, Pakistan
+                  </p>
+                </div>
+              </div>
             </section>
-           
-             
 
-        </div>
+            <!-- links -->
+
+            <section
+              class="aside-sec3 d-flex align-item-center justify-content-center gap-4 p-3"
+            >
+              <a
+                href="https://www.linkedin.com/in/muhammad-afzal-sharif-640098315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                target="_blank"
+                ><i class="bx bxl-linkedin-square"></i
+              ></a>
+              <a href="https://github.com/MuhammadAfzalSharif" target="_blank"
+                ><i class="bx bxl-github"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/muhammad_afzal_2004?igsh=YzljYTk1ODg3Zg=="
+                target="_blank"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a
+                href="https://www.facebook.com/profile.php?id=61550566251529"
+                target="_blank"
+                ><i class="bx bxl-facebook-circle"></i
+              ></a>
+            </section>
+          </div>
+        </aside>
+
+        <!--^  beside section  -->
+        <section class="col-7 outer-section">
+          <section class="header">
+            <ul>
+              <li id="about" class="text clickcolor">About</li>
+              <li id="resume" class="text">Resume</li>
+              <li id="portfolio" class="text">Portfolio</li>
+              <li id="blog" class="text">Blog</li>
+              <li id="contact" class="text">Contact</li>
+            </ul>
+          </section>
+
+          <!--^ about me  -->
+          <section class="describing-section active part1 style-part1">
+            <h1>About Me</h1>
+            <div class="short-line"></div>
+            <p>
+              I'm Muhammad Afzal Sharif, a dedicated front-end developer with a
+              knack for creating responsive and visually stunning websites. My
+              expertise extends beyond the front end, as I also have substantial
+              knowledge of back-end technologies like Node.js and Express.js,
+              along with databases such as MongoDB and SQL. <br />
+              <br />I pride myself on being a logical programmer, adept at
+              solving complex problems and bringing innovative ideas to life. My
+              diverse skill set allows me to seamlessly integrate functionality
+              with aesthetic appeal, ensuring each project is both efficient and
+              engaging. Let's collaborate and create something extraordinary
+              together.
+            </p>
+
+            <h2>What I'm Doing</h2>
+
+            <div class="cards">
+              <div class="card1">
+                <i class="bx bx-code-alt"></i>
+                <div class="card-content">
+                  <h4>Web Developer</h4>
+                  <p>
+                    As a Junior Front-End and Backend developer, I craft
+                    intuitive user interfaces that blend functionality with
+                    aesthetic appeal.
+                  </p>
+                </div>
+              </div>
+              <div class="card1">
+                <i class="bx bxs-edit"></i>
+                <div class="card-content">
+                  <h4>Programmer</h4>
+                  <p>
+                    I excel at solving problems logically and writing efficient
+                    code to implement solutions.
+                  </p>
+                </div>
+              </div>
+              <div class="card1">
+                <i class="bx bxl-microsoft"></i>
+                <div class="card-content">
+                  <h4>MS.Office</h4>
+                  <p>
+                    Proficient in MS Office, I adeptly utilize its suite of
+                    applications to enhance organizational efficiency.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!--^ Resume  -->
+          <section class="describing-section part2 style-part2">
+            <!-- title  -->
+            <h1>Resume</h1>
+            <div class="short-line"></div>
+            <!-- education  -->
+            <div class="education">
+              <div class="experience1">
+                <i class="bx bx-book-bookmark icons"></i>
+                <h3>Education</h3>
+              </div>
+
+              <div class="line"></div>
+
+              <div class="experience2">
+                <i class="bx bxs-circle"></i>
+                <p>
+                  <strong>NUCES FAST , Karachi Campus</strong><br />2022-2026 (
+                  I am in 6th semester now )
+                </p>
+              </div>
+
+              <div class="experience2">
+                <i class="bx bxs-circle"></i>
+                <p>
+                  <strong>TCF College (Intermediate), Karachi</strong
+                  ><br />2020-2022
+                </p>
+              </div>
+
+              <div class="experience2">
+                <i class="bx bxs-circle"></i>
+                <p>
+                  <strong>TCF School (Matriculation) ,Karachi</strong
+                  ><br />2018-2020
+                </p>
+              </div>
+            </div>
+
+            <!-- experience  -->
+            <div class="education">
+              <div class="experience1">
+                <i class="bx bx-book-bookmark icons"></i>
+                <h3>Experience</h3>
+              </div>
+
+              <div class="experience2">
+                <i class="bx bxs-circle"></i>
+                <h6 id="experience-fresh">Fresh</h6>
+              </div>
+            </div>
+
+            <h2>What I'm Doing</h2>
+
+            <!-- progress bar  -->
+            <div class="progress-container">
+              <span class="skill">HTML / CSS</span>
+              <span class="percent">80%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">BOOTSTRAPE</span>
+              <span class="percent">75%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">JAVASCRIPT</span>
+              <span class="percent">80%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">ES6</span>
+              <span class="percent">80%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">Node JS / Express JS</span>
+              <span class="percent">70%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">SQL DB</span>
+              <span class="percent">80%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">MongoDb</span>
+              <span class="percent">65%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 65%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">C / C++</span>
+              <span class="percent">80%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 80%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">ASSEMBELY LANGUAGE</span>
+              <span class="percent">75%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">OOP</span>
+              <span class="percent">75%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 75%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">DATA STRUCTURE</span>
+              <span class="percent">70%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 70%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">Algorithms</span>
+              <span class="percent">60%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 60%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">PROBLEM SOLVING</span>
+              <span class="percent">90%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+
+              <span class="skill">ACTIVE TEAM MEMBER</span>
+              <span class="percent">90%</span>
+
+              <div
+                class="progress"
+                style="height: 10px; border-radius: 10px; margin: 5px 20px"
+              >
+                <div
+                  class="progress-bar"
+                  role="progressbar"
+                  style="width: 90%; border-radius: 10px"
+                  aria-valuenow="25"
+                  aria-valuemin="0"
+                  aria-valuemax="100"
+                ></div>
+              </div>
+              <br />
+            </div>
+
+            <!-- reusme link -->
+            <h3 class="resume-link-text">Resume Link</h3>
+            <div class="resume-link-container">
+              <i class="bx bx-book-open"></i>
+              <p>
+                <a
+                  href="https://app.flowcv.com/resume-feedback/fobio1wtf6"
+                  target="_blank"
+                  >Click Me
+                </a>
+              </p>
+            </div>
+          </section>
+
+          <!--^ portfolio -->
+          <section class="describing-section part3 style-part3">
+            <h1>Portfolio</h1>
+            <div class="short-line"></div>
+
+            <ul>
+              <li class="nav-ele clickcolor all-web">All</li>
+              <li class="nav-ele responsive-web">Responsive Website</li>
+            </ul>
+
+            <div class="website">
+              <!-- all and responsive website link and pic -->
+              <!--! 1st card  -->
+              <div class="all responsive">
+                <a
+                  href="https://muhammadafzalsharif.github.io/scarpentera/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/scarpentera/"
+                  target="_blank"
+                  ><img src="css/img/w1r.png" alt=""
+                /></a>
+                <p class="web-name">Scarpentra (Wood Worker Website)</p>
+              </div>
+
+              <!--! 1st card end  -->
+
+              <div class="all">
+                <a
+                  href="https://github.com/MuhammadAfzalSharif/Area-Awearness"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://github.com/MuhammadAfzalSharif/Area-Awearness"
+                  target="_blank"
+                  ><img src="css/img/area-awear.png" alt=""
+                /></a>
+                <p class="web-name">Area-Awearness</p>
+              </div>
+
+              <div class="all responsive">
+                <a
+                  href="https://muhammadafzalsharif.github.io/codilooper/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/codilooper/"
+                  target="_blank"
+                  ><img src="css/img/w2r.png" alt=""
+                /></a>
+
+                <p class="web-name">Codi Looper (Portfolio Website)</p>
+              </div>
+
+              <div class="all responsive">
+                <a
+                  href="https://github.com/MuhammadAfzalSharif/mobile_ecommerce_web"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://github.com/MuhammadAfzalSharif/mobile_ecommerce_web"
+                  target="_blank"
+                  ><img src="css/img/mobile-ecommerce.png" alt=""
+                /></a>
+                <p class="web-name">Mobile-Ecommerce</p>
+              </div>
+
+              <div class="all">
+                <a
+                  href="https://muhammadafzalsharif.github.io/staybnb/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/staybnb/"
+                  target="_blank"
+                  ><img src="css/img/w2.png" alt=""
+                /></a>
+                <p class="web-name">Staybnb (Travel Website)</p>
+              </div>
+
+              <div class="all">
+                <a
+                  href="https://muhammadafzalsharif.github.io/ytube/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/ytube/"
+                  target="_blank"
+                  ><img src="css/img/w3.png" alt=""
+                /></a>
+
+                <p class="web-name">Youtube (Social Website)</p>
+              </div>
+
+              <div class="all">
+                <a
+                  href="https://muhammadafzalsharif.github.io/shopkaro/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/shopkaro/"
+                  target="_blank"
+                  ><img src="css/img/w1.png" alt=""
+                /></a>
+
+                <p class="web-name">Shop Karo (Ecommerce Website)</p>
+              </div>
+
+              <div class="all responsive">
+                <a
+                  href="https://muhammadafzalsharif.github.io/salty/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/salty/"
+                  target="_blank"
+                  ><img src="css/img/w3r.png" alt=""
+                /></a>
+                <p class="web-name">Salty (Travel Website)</p>
+              </div>
+
+              <div class="all responsive">
+                <a
+                  href="https://muhammadafzalsharif.github.io/xypo/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/xypo/"
+                  target="_blank"
+                  ><img src="css/img/w5r.png" alt=""
+                /></a>
+
+                <p class="web-name">Xypo (Education Website)</p>
+              </div>
+
+              <div class="all responsive">
+                <a
+                  href="https://muhammadafzalsharif.github.io/socialbook/"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://muhammadafzalsharif.github.io/socialbook/"
+                  target="_blank"
+                  ><img src="css/img/w4r.png" alt=""
+                /></a>
+
+                <p class="web-name">Facebook (Social Website)</p>
+              </div>
+              <!-- add more wesites-->
+            </div>
+          </section>
+
+          <!--^ certification / blog  -->
+          <section class="describing-section part4 style-part4">
+            <h1>Certifications</h1>
+            <div class="short-line shli"></div>
+            <br>
+
+            <div class="certificate_section">
+              <div class="certificates">
+                <a
+                  href="https://www.coursera.org/verify/MFCZ83R27NQ7"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+
+                <a
+                  href="https://www.coursera.org/verify/MFCZ83R27NQ7"
+                  target="_blank"
+                >
+                  <img src="css/img/frontend.png" alt="" />
+                </a>
+                <p class="certificate-name-date">
+                  Front-End Web Developer • Aug,2023
+                </p>
+                <h3>HTML,CSS,JS Web Developer</h3>
+                <p class="certificate-description">
+                  I am absolutely thrilled to have completed my Frontend
+                  Developer certification! It's a culmination of hard work and
+                  learning, and I'm excited to apply my skills in real-world
+                  projects.
+                </p>
+              </div>
+
+              <div class="certificates">
+                <a
+                  href="https://verify.mygreatlearning.com/verify/XCQYLIJT"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://verify.mygreatlearning.com/verify/XCQYLIJT"
+                  target="_blank"
+                  ><img src="css/img/c++.png" alt=""
+                /></a>
+                <p class="certificate-name-date">
+                  Programming Language • Aug,2023
+                </p>
+                <h3>C++ Course Completion</h3>
+                <p class="certificate-description">
+                  I am ecstatic to have earned my certification in C++
+                  programming! It's a testament to my dedication and passion for
+                  mastering this versatile language.
+                </p>
+              </div>
+
+              <div class="certificates">
+                <a
+                  href="https://verify.mygreatlearning.com/verify/DKQJBPFY"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://verify.mygreatlearning.com/verify/DKQJBPFY"
+                  target="_blank"
+                  ><img src="css/img/oop.png" alt=""
+                /></a>
+                <p class="certificate-name-date">OOP • Aug,2023</p>
+                <h3>Certification Of Completion OOP Concept Using C++</h3>
+                <p class="certificate-description">
+                  I'm thrilled to have earned my certification in
+                  Object-Oriented Programming using C++! It's a major
+                  achievement that validates my skills in designing and
+                  implementing efficient, scalable solutions.
+                </p>
+              </div>
+
+              <div class="certificates">
+                <a
+                  href="https://mega.nz/file/uzA0FLqT#Cx1BQbE8RnzXOK5BftAdLHQVCQScHdvXEwBFt2DpUiI"
+                  target="_blank"
+                >
+                  <i class="bx bxs-paper-plane icons paper-plane"></i>
+                </a>
+                <a
+                  href="https://mega.nz/file/uzA0FLqT#Cx1BQbE8RnzXOK5BftAdLHQVCQScHdvXEwBFt2DpUiI"
+                  target="_blank"
+                  ><img src="css/img/codercup25.png" alt=""
+                /></a>
+                <p class="certificate-name-date">
+                  Coder's Cup • september,2024
+                </p>
+                <h3>Certification Of Participation in Programming Competition</h3>
+                <p class="certificate-description"></p>
+                  I am proud to have participated in the Coder's Cup, a prestigious programming competition. This experience has honed my skills in competitive programming, allowing me to tackle complex problems under time constraints and collaborate with other talented programmers.
+                </p>
+              </div>
+              <!-- put more certificates  -->
+            </div>
+          </section>
+
+          <!-- contact  -->
+          <section class="describing-section part5 style-part5">
+            <h1>Contact</h1>
+            <div class="short-line"></div>
+
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26367.054319772942!2d67.04541546350319!3d24.977951899119947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb340e59b6b225b%3A0x1951829acb486c7e!2sNorth%20Karachi%20Twp%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1720818273603!5m2!1sen!2s"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+
+            <h4>Contact Information</h4>
+
+            <div class="contact-icon">
+              <i class="bx bxl-whatsapp"></i
+              ><a href="mailto:muhammmadafzalsharif.2004@gmail.com"
+                >muhammmadafzalsharif.2004@gmail.com</a
+              >
+            </div>
+
+            <div class="contact-icon">
+              <i class="bx bx-envelope"></i
+              ><a href="tel:+923024228989">+923024228989</a><br />
+            </div>
+          </section>
+        </section>
+      </div>
     </section>
-        
-    
-    
 
     <!-- bootstrape  -->
 
-    
-
     <!-- custom js -->
     <script src="js/script.js"></script>
-
-</body>
+  </body>
 </html>
